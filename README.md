@@ -1,0 +1,2 @@
+# ps-2_key_board_MCU_Simplified_Compatibility_Program
+这个程序运行在单片机上，和ps/2键盘通信使用，实际上不能向键盘发送数据，只是从键盘读取数据，并进行字符串判断，提取通断码。主控芯片是stm32f103rct6 ，硬件上只需要将ps/2键盘的data连接到某一串口接收引脚（前提是你做好了供电）。The program running on the microcontroller, communication with ps/2 keyboard , actually cannot send data to the keyboard, just read the data from the keyboard, do some string judgment, then extracting off  make code and break code, .  The chip is stm32f103rct6, the hardware will need only ps/2 keyboard 'data'pin connected to a serial port to receive data  (power supply to keyboard).
